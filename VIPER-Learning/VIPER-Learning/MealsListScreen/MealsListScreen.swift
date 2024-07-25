@@ -66,6 +66,13 @@ extension MealsListScreen: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.tableViewCategories.deselectRow(at: indexPath, animated: true)
+        let selectedCategory = self.presenter.mealCategories[indexPath.row]
+        print()
+        //TODO: Handle Navigation
+    }
+    
 }
 
 //MARK: Implementation of meals list categories delegation

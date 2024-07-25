@@ -99,6 +99,7 @@
 		0C0474C02C4C94220012CF3F /* VIPER-Learning */ = {
 			isa = PBXGroup;
 			children = (
+				0C7146122C4E563A00B0F8F2 /* New Group */,
 				0C0474D72C4D90B30012CF3F /* MealsListScreen */,
 				0C0474C12C4C94220012CF3F /* AppDelegate.swift */,
 				0C0474C32C4C94220012CF3F /* SceneDelegate.swift */,
@@ -155,6 +156,13 @@
 				0C71460B2C4E50E700B0F8F2 /* VIPER_LearningTests.swift */,
 			);
 			path = "VIPER-LearningTests";
+			sourceTree = "<group>";
+		};
+		0C7146122C4E563A00B0F8F2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		2CEB0A42B948EA9249225E1A /* Frameworks */ = {
